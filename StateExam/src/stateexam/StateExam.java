@@ -12,7 +12,9 @@ import sun.security.util.Debug;
 public class StateExam {
 
     public static void main(String[] args) {
-        DoubleArrayGenerator.GenerateAndPrintArray();
+        Square.FindSquare(7
+                , new float[]{0.9f, 7, 1, 3, 6, 3, 21}
+                , new float[]{2, -10, -2, -5, -20, 4, 21.2f});
     }
     
 }
